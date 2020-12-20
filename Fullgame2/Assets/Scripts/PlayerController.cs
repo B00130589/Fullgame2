@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour
         {
             playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             isOnGround = false;
-            playerAnim.SetTrigger("AstroJump_0");
+           
         }
 
         horizontalInput = Input.GetAxis("Horizontal");
